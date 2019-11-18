@@ -8,7 +8,7 @@ void loop()
 {
   if(Serial.available()>0)
   {
-    data=Serail.read();
+    data=Serial.read();
     Serial.println(data);
     if(data='1')
       digitalWrite(13,HIGH);
